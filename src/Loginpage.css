@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Background.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.h1 b{
+    padding: 5vw;
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    display: flex;
+    text-shadow: 2px 2px 3px rgb(83, 132, 183);
+}
+
+.yo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.hehe {
+    backdrop-filter: blur(15px);
+    padding: 9vw;
+    border-radius: 39px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    width: 80%;
+    height: 60%;
+    box-shadow: 0px 8px 60px rgb(206, 223, 230);
+    animation: grow 1s ease-in-out forwards;
+}
+
+@keyframes grow {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* @keyframes lgbt {
+  0% {
+    box-shadow: 0 0 90px rgb(255, 0, 17);
+  }
+  20% {
+    box-shadow: 0 0 90px rgb(0, 255, 0);
+  }
+  40% {
+    box-shadow: 0 0 90px rgb(0, 0, 255);
+  }
+  60% {
+    box-shadow: 0 0 90px rgb(228, 244, 0);
+  }
+  80% {
+    box-shadow: 0 0 90px rgb(17, 159, 235);
+  }
+  100%{
+    box-shadow: 0 0 90px blueviolet;
+  }
+}
+
+.hehe form {
+    font-size: 1.2vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+} */
+
+.hehe input {
+    width: 15vw;
+    margin: 1vw 0;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(192, 255, 250);
+    color: rgb(47, 15, 97);
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+button {
+    background-color: greenyellow;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(31, 107, 31);
+    border-radius: 25px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.a{
+    
+    padding: 1.3vw;
+    flex-direction: row;
+    display: flex;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    color: rgb(187, 170, 159);
+    text-decoration: none;
+    justify-content: center;
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+
+.a:hover{
+    color: white;
+    transform: scale(1.3);
+}
+
+.Google{
+    margin: 6vw;
+    margin-left: 6vw;
+    padding: 1.3vw;
+    width: 20vw;
+    background-color: white;
+    flex-direction: row;
+    display: flex;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.he{
+    margin-left: 20px;
+    margin-right: 0;
+    color:black;
+    text-decoration: none;
+}
+
+.Google:hover{
+    background-color: rgb(111, 251, 60);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.facebook{
+    margin: 6vw;
+    margin-left: 6vw;
+    padding: 1.4vw;
+    width: 20vw;
+    background-color: rgb(41, 39, 143);
+    flex-direction: row;
+    display: flex;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.facebook:hover{
+    background-color: blue;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.heya{
+    margin-left: 20px;
+    margin-right: 0;
+    color:white;
+    text-decoration: none;
+}
+
+.aayein{
+    text-decoration: none;
+    margin: 1vw 0;
+    width: 100%;
+}
+
+@media (max-width:600px) {
+    .hehe{
+        font-size: 2.3vw;
+        width: 80vw;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: cen;
+    }
+    .h1{
+        font-size: small;
+    }
+    .he{
+        font-size: 1.75vw;
+    }
+    .heya{
+        font-size: 1.45vw;
+    }
+    .Google{
+        margin: 2vw;
+        padding: 0.5vw;
+        padding-right: 2vw;
+        align-items: center;
+        width: 22vw;
+    }
+    .facebook{
+        margin: 2vw;
+        padding: 0.9vw;
+        padding-right: 2vw;
+        align-items: center;
+    }
+    .hehe{
+        display: inline-block;
+        align-items: center;
+    }
+    .a{
+        color: black;
+    }
+    .god{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hehe input{
+        width: 25vw;  
+        height: 4vw;
+        margin: 2vw 0;
+    }
+    .h1 b{
+        font-size: 11vw;
+        color: rgb(255, 255, 255);
+        text-shadow: 4px 3px 5px rgb(70, 57, 192);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .h1{
+        margin: 6vw;
+    }
+    .hehe input{
+        font-size: 2vw;
+    }
+
+    .a{
+        color: white ;
+        font-size: 3vw;
+    }
+    button{
+        padding: 1vw;
+        width: 14vw;
+        font-size: 2vw;
+        margin: 2vw 0;
+    }
+    .aayein a{
+    text-decoration: none;
+    margin: 1vw 0;
+    width: 100%;
+    color: rgb(158, 212, 245);
+}
+}
+
+.aayein a{
+    text-decoration: none;
+    margin: 1vw 0;
+    width: 100%;
+    height: 2vw;
+    color: rgb(158, 212, 245);
+    transition: transform 0.2s ease;
+    padding: 1vw;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.aayein a:hover{
+
+    transform: scale(1.1);
+    color: aquamarine;
+}

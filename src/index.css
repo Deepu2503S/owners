@@ -1,0 +1,589 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-food-overlooking-the-background-banner-image_138613.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+/* Navigation Bar */
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar {
+    backdrop-filter: blur(4vw);
+    width: 100%;
+    height: 4vw;
+    border-top: 1px solid;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vw;
+}
+
+.cart {
+    text-decoration: none;
+    color: white;
+    font-size: 3vw;
+}
+
+.welcome-message {
+    color: rgb(211, 236, 20);
+    font-weight: 900;
+    font-size: 1.6vw;
+    display: flex;
+    justify-content: center;
+    height: 4vh;
+    margin-bottom: 1vw;
+    align-items: end;
+}
+
+.nav-link {
+    padding: 0.8vw 1vw;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 600;
+    transition: transform 0.4s ease;
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+    color: black;
+    background-color: antiquewhite;
+}
+
+
+
+.div1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.logo {
+    height: 100%;
+    color: rgb(211, 236, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 2vw;
+    font-weight: 900;
+    font-size: 1.7vw;
+}
+
+.placards1 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    gap: 2vw;
+}
+
+.name {
+    font-size: 1.6vw;
+    font-weight: 600;
+    text-decoration: dashed;
+    justify-content: center;
+    display: flex;
+    color: azure;
+    margin: 2vw;
+}
+
+.main-content {
+    width: 100%;
+    height: calc(100vh - 8vw); 
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 4vw; 
+}
+
+.placards1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: normal;
+    gap: 2vw;
+    padding: 1vw;
+    animation: grow 1s ease-in-out;
+}
+
+.card {
+    width: 27vw;
+    height: 40.5vw;
+    box-shadow: 0 0 1.6vw brown;
+    border-radius: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2vw;
+    animation: lgbt 12s infinite ;
+    backdrop-filter: blur(10px);
+    transition: transform 0.2s ease-in-out, backdrop-filter 0.2s ease-in-out;
+    position: relative;
+}
+
+.card img {
+    border: 0px solid brown;
+    height: 55%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2vw;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    backdrop-filter: blur(30px);
+    z-index: 10;
+}
+
+.status1 {
+    text-decoration: dashed;
+    align-items: center;
+    font-size: 1.4vw;
+    display: flex;
+    width: 100%;
+    margin: 0vw;
+    justify-content: space-between;
+    color: white;
+}
+
+.status2{
+    text-decoration: dashed;
+    align-items: center;
+    font-size: 1vw;
+    display: flex;
+    width: 100%;
+    gap: 0.2vw;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 0.8vw;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-content::-webkit-scrollbar {
+    display: none;
+}
+
+.button {
+    background-color: greenyellow;
+
+    cursor: pointer;
+    border: 1px solid rgb(31, 107, 31);
+    border-radius: 25px;
+    margin-top: 2vw;
+}
+
+.b4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2vw;
+    padding: 0.6vw;
+    background-color: rgb(133, 201, 203);
+    border-radius: 10px;
+    border-style: groove;
+    cursor: pointer;
+    margin: 0;
+}
+
+.button:hover {
+    background-color: darkgreen;
+}
+
+.h1 b {
+    padding: 5vw;
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    display: flex;
+    text-shadow: 2px 2px 3px rgb(83, 132, 183);
+}
+
+.yo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.hehe {
+    backdrop-filter: blur(15px);
+    padding: 9vw;
+    border-radius: 39px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    width: 80%;
+    height: 60%;
+    box-shadow: 0px 8px 60px rgb(206, 223, 230);
+    animation: grow 1s ease-in-out forwards;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes lgbt {
+    0% {
+        box-shadow: 0 0 4vw rgb(255, 0, 17);
+    }
+    20% {
+        box-shadow: 0 0 4vw rgb(0, 255, 0);
+    }
+    40% {
+        box-shadow: 0 0 4vw rgb(244, 234, 244);
+    }
+    60% {
+        box-shadow: 0 0 4vw rgb(228, 244, 0);
+    }
+    80% {
+        box-shadow: 0 0 4vw rgb(17, 159, 235);
+    }
+    100% {
+        box-shadow: 0 0 4vw rgb(255, 0, 17);
+    }
+}
+
+.hehe form {
+    font-size: 1.2vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hehe input {
+    width: 15vw;
+    margin: 1vw 0;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(192, 255, 250);
+    color: rgb(47, 15, 97);
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.button {
+    background-color: greenyellow;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(31, 107, 31);
+    border-radius: 25px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.a {
+    padding: 1.3vw;
+    flex-direction: row;
+    display: flex;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    color: rgb(187, 170, 159);
+    text-decoration: none;
+    justify-content: center;
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+
+.a:hover {
+    color: white;
+    transform: scale(1.3);
+}
+
+.Google {
+    margin: 6vw;
+    margin-left: 6vw;
+    padding: 1.3vw;
+    width: 20vw;
+    background-color: white;
+    flex-direction: row;
+    display: flex;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.he {
+    margin-left: 20px;
+    margin-right: 0;
+    color: black;
+    text-decoration: none;
+}
+
+.Google:hover {
+    background-color: rgb(111, 251, 60);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.facebook {
+    margin: 6vw;
+    margin-left: 6vw;
+    padding: 1.4vw;
+    width: 20vw;
+    background-color: rgb(41, 39, 143);
+    flex-direction: row;
+    display: flex;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.facebook:hover {
+    background-color: blue;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.heya {
+    margin-left: 20px;
+    margin-right: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.aayein {
+    text-decoration: none;
+    margin: 1vw 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .hehe {
+        font-size: 2.3vw;
+        width: 80vw;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .h1 {
+        font-size: small;
+    }
+
+    .he {
+        font-size: 1.75vw;
+    }
+
+    .heya {
+        font-size: 1.45vw;
+    }
+
+    .Google {
+        margin: 2vw;
+        padding: 0.5vw;
+        padding-right: 2vw;
+        align-items: center;
+        width: 22vw;
+    }
+
+    .facebook {
+        margin: 2vw;
+        padding: 0.9vw;
+        padding-right: 2vw;
+        align-items: center;
+    }
+
+    .hehe {
+        display: inline-block;
+        align-items: center;
+    }
+
+    .a {
+        color: black;
+    }
+
+    .god {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hehe input {
+        width: 25vw;
+        height: 4vw;
+        margin: 2vw 0;
+    }
+
+    .h1 b {
+        font-size: 11vw;
+        color: rgb(255, 255, 255);
+        text-shadow: 4px 3px 5px rgb(70, 57, 192);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .h1 {
+        margin: 6vw;
+    }
+
+    .hehe input {
+        font-size: 2vw;
+    }
+
+    .a {
+        color: white;
+        font-size: 3vw;
+    }
+
+    button {
+        padding: 1vw;
+        width: 14vw;
+        font-size: 2vw;
+        margin: 2vw 0;
+    }
+
+    .aayein a {
+        text-decoration: none;
+        margin: 1vw 0;
+        width: 100%;
+        color: rgb(158, 212, 245);
+    }
+}
+
+@media (max-width: 1024px) {
+    .placards1 {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 45vw;
+        height: 60vw;
+    }
+
+    .name {
+        font-size: 2vw;
+    }
+
+    .status1 {
+        font-size: 1.3vw;
+    }
+
+    .button button {
+        padding: 8px;
+        width: 80px;
+        font-size: 1.5vw;
+    }
+
+    .nav-link {
+        font-size: 1vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .placards1 {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 80vw;
+        height: 60vw;
+    }
+
+    .name {
+        font-size: 3vw;
+    }
+
+    .status1 {
+        font-size: 1.7vw;
+    }
+
+    .button button {
+        padding: 8px;
+        width: 120px;
+        font-size: 2vw;
+    }
+
+    .nav-link {
+        font-size: 1vw;
+    }
+
+    .nav-link {
+        display: none;
+    }
+}
+
+.aayein a {
+    text-decoration: none;
+    margin: 1vw 0;
+    width: 100%;
+    height: 2vw;
+    color: rgb(158, 212, 245);
+    transition: transform 0.2s ease;
+    padding: 1vw;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.aayein a:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+}
